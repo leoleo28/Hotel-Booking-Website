@@ -28,7 +28,9 @@ const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const [openModal, setOpenModal] = useState(false);
-  const { data, loading, error } = useFetch(`/hotels/find/${id}`);
+  const { data, loading, error } = useFetch(
+    `${process.env.REACT_APP_SERVER}/api/hotels/find/${id}`
+  );
   const { user } = useContext(AuthContext);
   const { dates, options } = useContext(SearchContext);
   const MILLISECONDS_PER_DAY = 1000 * 60 * 60 * 24;

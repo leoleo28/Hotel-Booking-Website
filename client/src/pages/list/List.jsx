@@ -47,7 +47,9 @@ const List = () => {
     if (features.transport) res += "&transport=true";
     return res;
   };
-  let url = `/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`;
+  let url = `${
+    process.env.REACT_APP_SERVER
+  }/api/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`;
   const { data, loading, error, reFetch } = useFetch(url);
 
   const handleClick = () => {
