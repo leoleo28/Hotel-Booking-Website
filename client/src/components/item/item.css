@@ -1,0 +1,36 @@
+.mapItemContainer {
+  position: relative;
+}
+
+.mapItemTitle {
+  text-align: center;
+  font-size: 6px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+.mapMidContainer {
+  width: 100px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.mapMidContainer:hover {
+  z-index: 5;
+}
+
+.mapMidContainer > img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}

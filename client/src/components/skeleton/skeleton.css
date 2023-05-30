@@ -1,0 +1,163 @@
+.circle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.circleonly {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+  width: 100%;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.skeleton-text:last-child {
+  margin-bottom: 0;
+  width: 80%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+.skListitemContainer {
+  height: 200px;
+  width: 700px;
+  padding: 10px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.skcontainerleft {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.skcontainermid {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.skcontainermidup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.skcontainermiddown {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.skcontainerright {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.skcontainerrightup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.skcontainerrightdown {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.skListitemImage {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+}
+
+.mpListitemContainer {
+  height: 400px;
+  width: 300px;
+  padding: 10px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.mpListitemproperty {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.mpListitempropertyflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.mpListitemImage {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skeleton-title {
+  width: 50%;
+  height: 0.75rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.skeleton-left {
+  width: 20%;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.skeleton-rightshort {
+  width: 40%;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.skeleton-rightlong {
+  width: 60%;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.125rem;
+}

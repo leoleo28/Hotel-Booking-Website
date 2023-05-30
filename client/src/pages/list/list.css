@@ -1,0 +1,156 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.lsTitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem > label {
+  font-size: 12px;
+}
+
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions {
+  padding: 10px;
+}
+
+.lsOptionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionInput {
+  width: 50px;
+}
+
+.listSearch > button {
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  margin: 30px;
+}
+
+.sort {
+  display: flex;
+  gap: 30px;
+}
+
+.sortchoice {
+  border-radius: 10px;
+  width: 90px;
+  background-color: rgb(199, 197, 197);
+  padding: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sortchoice:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.listslider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 7.5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.listslider:hover {
+  opacity: 1;
+}
+
+.listslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12.5px;
+  height: 12.5px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.listslider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox > input {
+  margin-left: 10px;
+}
+
+.lsItem > h4 {
+  margin-bottom: 15px;
+}

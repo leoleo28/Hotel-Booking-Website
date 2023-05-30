@@ -1,0 +1,56 @@
+.ListitemContainer {
+  height: max-content;
+  width: 100%;
+  padding: 10px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.ListitemContainer > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Listitemproperty {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  align-items: center;
+}
+
+.Listitemproperty > div {
+  font-size: 12px;
+}
+
+.Listitemcuisine {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Listitemcuisine > span {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.cuisinetype {
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: rgb(175, 173, 173);
+  color: black;
+  width: max-content;
+  height: max-content;
+  padding: 5px;
+}
+
+.Listitembtn {
+  background-color: rgb(143, 199, 244);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
