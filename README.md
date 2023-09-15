@@ -4,7 +4,7 @@
 ### Overview
 This is a fullstack hotel booking website
 * Used: React, Node.js, Express, MongoDB, Material UI, CSS, Google Map API, Context API
-* Built a robust REST API that allows CRUD operations for user authentication, hotel booking, and cart management
-* Tested and validated 20+ API endpoints with Postman and optimized server response time
-* Implemented filtering, sorting, pagination, and autocomplete search functionality
-* Integrated with Google Map API, Google Geolocation API, and RapidAPI
+* Designed the RESTful APIs that allows CRUD operations for user authentication, hotel booking and cart management
+* Leveraged Google Map API to provide personalized recommendations for nearby restaurants and attractions based on hotel location
+* Increase search efficiency by implementing intuitive filtering, sorting, pagination and autocomplete search functionality
+* Developed the CI/CD pipeline to automatically deploy Nodejs API from github to AWS EC2 instance with Nginx
